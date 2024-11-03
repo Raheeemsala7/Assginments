@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #ddd;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.card {
+    width: 450px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.header {
+    height: 270px;
+    background-image: url("../imgs/download.jpg");
+    object-fit: cover;
+    border: 1px solid transparent;
+    border-radius: 5px;
+
+}
+
+.info {
+    padding: 21px;
+
+    h2 {
+        color: rgb(34, 33, 33);
+        margin-bottom: 13px;
+    }
+
+    p {
+
+        font-size: 15px;
+        color: #666;
+        margin-bottom: 18px;
+        line-height: 21px;
+    }
+}

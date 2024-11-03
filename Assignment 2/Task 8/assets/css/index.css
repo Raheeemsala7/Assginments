@@ -1,0 +1,65 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #ddd;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.card{
+    background-color: white;
+    width: calc(100%/3);
+    height: 480px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.header{
+    height: 230px;
+    background-image: url("../imgs/download.jpg");
+    border: 1px solid transparent;
+  border-radius: 5px;
+
+}
+.divider{
+    border-top: 1px solid gainsboro;
+    width: 100%;
+    
+}
+
+
+.info{
+    padding: 21px;
+    height: 200px;
+}
+
+.item h3{
+    font-size: 21px;
+    font-family:'arial' ;
+    color: rgb(34, 33, 33);
+    margin-bottom: 4px;
+    padding: 21px;
+}
+
+.info p{
+
+    font-size: 15px;
+    font-family:'arial' ;
+    color: rgb(76, 74, 74);
+    margin-bottom: 18px;
+    line-height: 21px;
+}
+
+.footer{
+    margin-top: 14px;
+}
